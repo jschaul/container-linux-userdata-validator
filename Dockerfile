@@ -1,7 +1,6 @@
 FROM scratch
 MAINTAINER CoreOS
 
-EXPOSE 80
 WORKDIR /opt/validate
 ENTRYPOINT ["bin/validate"]
 
